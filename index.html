@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shilla</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/lib/jquery-1.12.4.min.js"></script>
+    <script src="js/lib/jquery.easing.1.3.js"></script>
+    <script src="js/videoControl.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <ul id="skip">
+            <li><a href="#nav">메뉴바로가기</a></li>
+            <li><a href="#main">본문바로가기</a></li>
+            <li><a href="#footer">하단바로가기</a></li>
+        </ul>
+        <header id="header">
+            <div>
+                <div class="header-menu-bar">
+                    <h1 class='header-logo-wrap'><a href='#' class='logoBt' title='logo'><img src="img/logo.png" alt="logo"></a></h1>
+                    <span class="header-appBar-wrap">
+                        <a href="javascript:" class="appbarBt">
+                            <i class="appbar-line appbar-line1"></i>
+                            <i class="appbar-line appbar-line2"></i>
+                            <i class="appbar-line appbar-line3"></i>
+                        </a>
+                    </span>
+                    <span class="header-search-wrap">
+                        <a href="javascript:" class="appbarBt">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </span>
+                </div>
+                <aside>
+                    <span><a href="#" class="joinBt" title="Join">Join</a></span>
+                    <span><i>|</i></span>
+                    <span><a href="#" class="loginBt" title="login">Login</a></span>
+                    <span><i>|</i></span>
+                    <span><a href="#" class="subscribeBt" title="subscribe">subscribe</a></span>
+                </aside>
+                <div class="header-logoNav">
+                    <div id="nav l_nav">
+                        <span><a href="#" class="mainBt">CULTURE</a></span>
+                        <span><a href="#" class="mainBt">GALLERY</a></span>
+                    </div>
+                    <div id="logo">
+                        <h1><a href="#" class="logoBt"><img src="img/logo.gif" alt="logo"></a></h1>
+                    </div>
+                    <div id="nav r_nav">
+                        <span><a href="#" class="mainBt">CULTURE</a></span>
+                        <span><a href="#" class="mainBt">GALLERY</a></span>
+                        <span><a href="#" class="mainBt">STORE</a></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <section id="section1">
+                <h2 class="ir_so">비디오 컨트롤 메인화면</h2>
+                <div>
+                    <div class="section1-main-video">
+                        <video id="mainVideo" autoplay muted poster="img/GS-blog-historical-conversions.jpg">
+                            <source src="video/videoplayback.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="section1-watch-again">
+                        <ul>
+                            <li><h2><a href="javascript:" class="sharevideoBt">share video</a></h2></li>
+                            <li><i></i></li>
+                            <li><h2><a href="javascript:" class="watchagainBt">watch again</a></h2></li>
+                        </ul>
+                   </div> <!-- class="section1-watch-again" -->
+                   <div class="section1-next-section">
+                       <span><a href="javascript:" class="nextsectionBt">explore stories</a></span>
+                   </div>
+                   <div class="section1-icon-footer">
+                       <div class="section1-icon-footer-left">
+                           <ul class="cf">
+                               <li><span><a href="javascript:" class="vaieoIconBt addIconbg"><i class="fas fa-video"></i></a></span></li>
+                               <li><span><a href="javascript:" class="wolrdIconBt"><i class="fas fa-globe"></i></a></span></li>
+                           </ul>
+                       </div>
+                       <div class="section1-icon-footer-center">
+                           <ul class="cf">
+                            <li><span><a href="javascript:" class="nexrsectionBt"><i class="fas fa-chevron-down"></i></a></span></li>
+                           </ul>
+                       </div>
+                       <div class="section1-icon-footer-right">
+                        <ul class="cf">
+                            <li><span><a href="javascript:" class="playPuaseIconBt"><img src="img/icon-player-pause.png" alt="play"></a></span></li>
+                            <li><span><a href="javascript:" class="mutedIconBt" title="Sonud on/off"><i class="fas fa-volume-mute"></i></a></span></li>
+                           </ul>
+                       </div>
+                   </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

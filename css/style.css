@@ -1,0 +1,72 @@
+#header{position: absolute; top: 0; left: 0; height: 110px; background: #f1e3c4; z-index: 3; overflow: hidden; width: 100%;}
+#header>div{width: 100%; margin: 0 auto; max-width: 1200px;}
+
+#header .header-menu-bar{position: relative; top:0; left: 0; width: 100%; height: 67px; background-color: rgb(255,255, 255, .5); text-align: center;  display: none;}
+.header-menu-bar>h1.header-logo-wrap{display: inline-block; padding: 21px 0;}
+
+/* 모바일 햄버거 메뉴 */
+.header-appBar-wrap{width: 22px; height: 14px; position: absolute; top: 26px; display: block; left: 20px;}
+.header-appBar-wrap .appbarBt{display: block; position: relative; width:100%; height: 100%;}
+.header-appBar-wrap .appbarBt .appbar-line{position: absolute; top: 0; width: 100%; height: 2px; background: #000; display: block;}
+.header-appBar-wrap .appbarBt .appbar-line1{top:0}
+.header-appBar-wrap .appbarBt .appbar-line2{top: 50%; }
+.header-appBar-wrap .appbarBt .appbar-line3{top:100%}
+
+/* 검색바 */
+.header-search-wrap{display: block; position: absolute; right: 20px; top: 24px; width: 22px; height: 16px;}
+.header-search-wrap .appbarBt{color: #000}
+.header-search-wrap .appbarBt i{font-size: 16px;}
+
+/* 사이드메뉴 */
+#header>div aside{text-align: right; padding-top: 15px; padding-bottom: 7px;}
+#header>div aside span{display: inline-block;}
+#header>div aside span i{color: rgba(255,255,255,.6); display: block; font-size: 13px; margin: 0 5px;}
+#header>div aside span a{color: rgba(255,255,255,.6); font-size: 13px;}
+
+/* 로고 */
+#header>div>.header-logoNav{width: 100%; display: flex;align-items: flex-end;justify-content: space-between}
+#header>div>.header-logoNav>h1{float: left;}
+
+/* 메인메뉴 */
+#header>div>div .r_nav{float: right; padding-top: 13px;}
+#header>div>div .l_nav{float: left; padding-top: 13px;}
+#header>div>div nav span{display: inline-block;}
+#header>div>div nav span a{display: block; padding-bottom: 5px; color: rgba(255,255,255,1);font-size: 18px;}
+#header>div>div nav span a i{ margin-top: -7px; display: block;}
+
+/* video */
+#main{width: 100%; z-index: 2;}
+#main #section1{width: 100%;}
+#main #section1>div{width: 100% ; position: relative;}
+#main #section1>div .section1-main-video{position: relative; z-index: 1; width: 100%; height: 969px; overflow: hidden;}
+#main #section1>div .section1-main-video video{width: 100%; height: auto; }
+#main #section1>div .section1-watch-again{position: absolute; z-index: 2; top: 50%; left: 50%; width: 160px; height: 160px;
+margin-left: -80px; margin-top: -80px; border: 1px solid rgba(255,255,255,.5); border-radius: 50%;}
+#main #section1>div .section1-watch-again ul{padding: 50px 0; text-align: center; text-transform: uppercase;}
+#main #section1>div .section1-watch-again ul li h2{font-size: 14px;}
+#main #section1>div .section1-watch-again ul li h2 a{color: #fff;}
+#main #section1>div .section1-watch-again ul li i{margin: 15px 0; display: inline-block; width: 40%; height: 1px; background-color: rgba(255,255,255,.5);}
+#main #section1>div .section1-next-section{display: block; z-index: 2; position: absolute; left: 0; width: 100%; text-align: center; bottom: 80px;}
+#main #section1>div .section1-next-section span{display: inline-block;}
+#main #section1>div .section1-next-section span a{text-transform: uppercase; font-size: 14px; font-weight: bold; color: rgba(255,255,255,1); transition: all .3s;}
+#main #section1>div .section1-next-section span a:hover{color: rgba(255,255,255,.6);}
+#main #section1>div .section1-icon-footer{position: absolute; z-index: 2; left: 0; bottom: 0; width: 100%; height: 60px; background: rgba(255,255,255,.7);}
+#main #section1>div .section1-icon-footer div{position: absolute; top: 0; height: 60px;}
+#main #section1>div .section1-icon-footer div ul li{float: left; width: 50%;}
+#main #section1>div .section1-icon-footer div ul li span{display: block; width: auto; height: 60px; border-right: rgba(255,255,255,.2);}
+#main #section1>div .section1-icon-footer div ul li:first-child span{border-right: rgba(255,255,255,.2);}
+#main #section1>div .section1-icon-footer div ul li span a{display: block; width: 100%; height: 100%; text-align: center;
+line-height: 60px ; transition: all .3s; background-color: rgba(100,100,100,0); color: rgba(255,255,255,.5);}
+#main #section1>div .section1-icon-footer div ul li span a:hover{color: rgba(255,255,255,1);}
+#main #section1>div .section1-icon-footer div ul li span a i{font-size: 27px; display: inline-block; padding: 16.5px 0;}
+#main #section1>div .section1-icon-footer div.section1-icon-footer-left{width: 120px; left: 90px}
+#main #section1>div .section1-icon-footer div.section1-icon-footer-left ul li span a.addIconbg{background-color: rgba(100,116,117,.7); color:rgb(255,255, 255, 1)}
+#main #section1>div .section1-icon-footer div.section1-icon-footer-center{width: 60px; left: 50%; margin-left: -30px;}
+#main #section1>div .section1-icon-footer div.section1-icon-footer-center ul li{width: 100%;}
+#main #section1>div .section1-icon-footer div.section1-icon-footer-center ul li span{position: relative; width: 60px; height: 60px; overflow: hidden; border: 0;}  
+#main #section1>div .section1-icon-footer div.section1-icon-footer-center ul li span i{z-index: 1; position: absolute; top: 50%; left: 50%; margin-left: -12px; margin-top: -30px;display: block;
+width: 22px; height: 22px; transition: all .3s;}  
+#main #section1>div .section1-icon-footer div.section1-icon-footer-center ul li span:hover i{margin-top: -20px;}  
+#main #section1>div .section1-icon-footer div.section1-icon-footer-right{right: 90px; width: 120px;}
+#main #section1>div .section1-icon-footer div.section1-icon-footer-right img{height: 22px; padding: 19px 0;}
+#main #section1>div .section1-icon-footer div.section1-icon-footer-right i{height: 22px; padding: 19px 0;}
